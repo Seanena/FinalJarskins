@@ -5,11 +5,10 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-     <header  style="background-image: url('/headerBG.png'); background-size: cover;">
+     <header  style="background-color: #272C33; height: 4rem;">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light" style=" width: 100%;">
                 <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" style="margin-left: 40px;">
-                <img src="https://i.imgur.com/vgAVqbA.png" alt="" width="50" height="50"> &nbsp; &nbsp;
                 <span class="fs-4" style="color: white;">JARSKINS</span>
             </a>
                 
@@ -19,36 +18,16 @@ import { RouterLink } from 'vue-router';
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <RouterLink to="/market">
-                                <button class="c-button c-button--gooey"  style="margin-right: 10px;" > ร้านค้า
-                                <div class="c-button__blobs">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                </div>
-                                </button>
-                            </RouterLink>   
+                            <RouterLink to="/market" class="tag">ร้านค้า</RouterLink>   
                         </li>
                         <li class="nav-item">
-                            <RouterLink to="/cart">
-                                <button class="c-button c-button--gooey" style="margin-right: 10px;" > ตะกร้า
-                                <div class="c-button__blobs">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                </div>
-                                </button>
+                            <RouterLink to="/cart" class="tag">
+                                ตะกร้า
                             </RouterLink> 
                         </li>
                         <li class="nav-item">
-                            <RouterLink to="/historyorder">
-                                <button class="c-button c-button--gooey"  style="margin-right: 10px;" > ประวัติคำสั่งซื้อ
-                                <div class="c-button__blobs">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                </div>
-                                </button>
+                            <RouterLink to="/historyorder" class="tag">
+                                ประวัติคำสั่งซื้อ
                             </RouterLink>   
                         </li>
                     </ul>
@@ -62,6 +41,9 @@ import { RouterLink } from 'vue-router';
 
 <style scoped>
 
+header{
+  padding-top: .5%;
+}
 #icon-theme{
   margin: auto 20px;
   width: 50px;
@@ -82,6 +64,15 @@ import { RouterLink } from 'vue-router';
   --secondary-color: #212121; 
 }
 
+.tag{
+  font-size: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+.tag:hover{
+  color: green;
+}
 .dark-theme{
  --primary-color: #161616;
  --secondary-color: #ffffff;
@@ -123,77 +114,6 @@ import { RouterLink } from 'vue-router';
   z-index: 1000;
 }
 /*  */
-.c-button {
-  background-color: #212121;
-  margin: 10px;
-  color: #f8a9ff;
-  font-weight: 700;
-  font-size: 16px;
-  text-decoration: none;
-  padding: 0.5em 1em;
-  cursor: pointer;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  z-index: 1;
-}
-
-.c-button--gooey {
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  border: 4px solid #F5BCC6;
-  border-radius: 50px;
-  position: relative;
-  transition: all 500ms ease;
-}
-
-.c-button--gooey .c-button__blobs {
-  height: 100%;
-  filter: url(#goo);
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: -3px;
-  right: -1px;
-  z-index: -1;
-  border-radius: 50px; /* ปรับ border-radius เป็นค่าที่เหมาะสมกับวงรีที่ต้องการ */
-}
-
-.c-button--gooey .c-button__blobs div {
-  background-color: hsl(353, 21%, 100%);
-  width: 100%;
-  height: 100%;
-  border-radius: 50px; /* ปรับ border-radius เป็นค่าที่เหมาะสมกับวงรีที่ต้องการ */
-  position: absolute;
-  transform: scale(1.4) translateY(125%) translateZ(0);
-  transition: all 600ms ease;
-}
-
-
-.c-button--gooey .c-button__blobs div:nth-child(1) {
-  left: -5%;
-}
-
-.c-button--gooey .c-button__blobs div:nth-child(2) {
-  left: 30%;
-  transition-delay: 60ms;
-}
-
-.c-button--gooey .c-button__blobs div:nth-child(3) {
-  left: 66%;
-  transition-delay: 25ms;
-}
-
-.c-button--gooey:hover {
-  color: #212121;
-}
-
-.c-button--gooey:hover .c-button__blobs div {
-  transform: scale(1.4) translateY(0) translateZ(0);
-}
-/* */
 .form-control-dark {
   border-color: var(--bs-gray);
 }

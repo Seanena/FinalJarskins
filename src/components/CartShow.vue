@@ -56,13 +56,6 @@ const placeOrder = () => {
 }
 
 
-// const promptPayQRCodeURL = computed(() => {
-//     if (paymentMethod.value === 'PromptPay Qr Code') {
-//         return `https://promptpay.io/0648432286/${totalOverallPrice.value}.png`;
-//     }
-//     return ''; 
-// });  
-
 </script>
 
 <template>
@@ -119,7 +112,9 @@ const placeOrder = () => {
                 </table>
                 </div>
             </div>
-        </div>       
+        </div> 
+        <div class="space" style="height: 300px;"></div>
+
     </div>
 
 
@@ -185,6 +180,7 @@ const placeOrder = () => {
                 </div>
             </div>
         </div>
+        <div class="space" style="height: 300px;"></div>
     </div>
 
     

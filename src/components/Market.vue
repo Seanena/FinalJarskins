@@ -18,6 +18,8 @@ const addToCart = (productData) => {
 
 <template>
     
+    <div class="custom-div">
+
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 mt-3" style="width: 95%; margin: auto;">
       <div class="col mb-4" v-for="(productData, index) in storeProduct.productsList" :key="index">
         <div class="card cardframe" style="border-radius: 0%; border: hidden;">
@@ -36,7 +38,27 @@ const addToCart = (productData) => {
         </div>
       </div>
     </div>
+  </div>
+
 
   
     
 </template>
+
+<style>
+  
+.custom-div {
+  padding: 20px;
+  width: 98%;
+  height: 100%;
+  border-radius: 10px;
+  background: #d9d9d9;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.custom-div h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 190px;
+    color: red;
+}</style>

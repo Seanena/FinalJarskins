@@ -39,6 +39,9 @@ import HeaderPart from './components/HeaderPart.vue'
 
 <style>
 
+footer{
+  padding: 50px;
+}
 .ft{
   margin: auto 30px;
   margin-bottom: -3rem;

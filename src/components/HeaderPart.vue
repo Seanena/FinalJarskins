@@ -13,7 +13,7 @@ import { RouterLink } from 'vue-router';
             </a>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: solid 2px white;">
-                    <img src="@/assets/menu.png" alt="Menu" style="width: 24px; height: 24px;">
+                    <img src="" alt="Menu" style="width: 24px; height: 24px;">
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">

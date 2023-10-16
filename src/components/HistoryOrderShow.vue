@@ -91,10 +91,9 @@ function formatNumberWithCommasonly(number) {
             <div class="container-xl mt-3" style="background-color: #333; border-radius: 10px; height: 300px;">
             </div>
 
-      </div>
-      <div class="space" style="height: 300px;"></div>
-
+          </div>
     </div>
+    <div class="space" style="height: 300px;"></div>
 
 
 </template>

@@ -40,9 +40,9 @@ const addToCart = () => {
               <div class="panelbuttcon">
                 <div class="buttcon" >
                   <div class="input-group mb-2">
-                    <span class="input-group-text quatitybuttbgminus"><button class="quatitybutt" @click="storeProduct.decrementQuantity(product)"><img class="imgbutt" src="@/assets/minus.png" alt=""></button></span>
+                    <span class="input-group-text quatitybuttbgminus"><button class="quatitybutt" @click="storeProduct.decrementQuantity(product)"><img class="imgbutt" src="" alt=""></button></span>
                     <input class="form-control no-spinners" type="number" v-model="product.quatity" style="text-align: center; font-size: smaller; font-weight: bold;" min="0">
-                    <span class="input-group-text quatitybuttbgplus"><button class="quatitybutt" @click="storeProduct.incrementQuantity(product)"><img class="imgbutt" src="@/assets/plus.png" alt=""></button></span>
+                    <span class="input-group-text quatitybuttbgplus"><button class="quatitybutt" @click="storeProduct.incrementQuantity(product)"><img class="imgbutt" src="" alt=""></button></span>
                   </div>  
                 </div>
               </div>

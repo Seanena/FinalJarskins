@@ -49,7 +49,7 @@ const placeOrder = () => {
             note: note.value,
             payment: paymentMethod.value,
         };
-        alert("สั่งซื้อสำเร็จ! ตรวจสอบรายละเอียดการสั่งซื้อได้ที่ รายการสั่งซื้อ \uD83D\uDE0E \uD83D\uDE0E \nขอบพระคุณอย่างยิ่ง");
+        alert("สั่งซื้อสำเร็จ!");
         storeProduct.addOrder(orderData);
 
     }

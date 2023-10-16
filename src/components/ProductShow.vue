@@ -41,31 +41,31 @@
   <div class="fixcoral" style="height: 300px;"></div>
   <div class="contai2">
     <figure>
-      <a href="#">
-         <img src="/src/assets/pic/Rectangle11.png" alt="">
+      <a href="/market">
+         <img src="/src/assets/pic/secondary1.webp" alt="">
       </a>
-      <a href="#">
-        <img src="/src/assets/pic/Rectangle12.png" alt="">
+      <a href="/market">
+        <img src="/src/assets/pic/secondary2.webp" alt="">
       </a>
-      <a href="#">
-        <img src="/src/assets/pic/Rectangle13.png" alt="">
+      <a href="/market">
+        <img src="/src/assets/pic/secondary3.webp" alt="">
       </a>
-      <a href="#">
-        <img src="/src/assets/pic/Rectangle14.png" alt="">
+      <a href="/market">
+        <img src="/src/assets/pic/secondary4.webp" alt="">
       </a>
     </figure>
     <figure>
-      <a href="#">
-        <img src="/src/assets/pic/Rectangle15.png" alt="">
+      <a href="/market">
+        <img src="/src/assets/pic/secondary5.webp" alt="">
       </a>
-      <a href="#">
-        <img src="/src/assets/pic/Rectangle16.png" alt="">
+      <a href="/market">
+        <img src="/src/assets/pic/secondary6.webp" alt="">
       </a>
-      <a href="#">
-        <img src="/src/assets/pic/Rectangle17.png" alt="">
+      <a href="/market">
+        <img src="/src/assets/pic/chicken.webp" alt="">
       </a>
-      <a href="#">
-        <img src="/src/assets/pic/Rectangle18.png" alt="">
+      <a href="/market">
+        <img src="/src/assets/pic/card.webp" alt="">
       </a>
     </figure>
   </div>
@@ -200,7 +200,7 @@ h2{
   width: 250px;
   height: 140px;
   margin: .2rem;
-  background-color: whitesmoke;
+  background-color: rgb(34, 31, 31);
   border-radius: 10px;
 }
 
@@ -310,7 +310,7 @@ h2{
 }
 
 .carousel-inner {
-  margin-top: 1%;
+  margin-top: 1.5%;
 }
 
 

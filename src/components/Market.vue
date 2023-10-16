@@ -18,16 +18,16 @@ const addToCart = (productData) => {
 
 <template>
     
-    <div class="custom-div">
+    <div class="custom-div" style="background-color: rgb(22, 20, 20);">
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 mt-3" style="width: 95%; margin: auto;">
       <div class="col mb-4" v-for="(productData, index) in storeProduct.productsList" :key="index">
-        <div class="card cardframe" style="border-radius: 0%; border: hidden;">
+        <div class="card cardframe" style="border-radius: 0%; border: hidden; background-color: rgb(34, 31, 31);">
           <img :src="productData.img" class="card-img-top" alt="productImg" style="border-radius: 0%;">
           <div class="card-body">
-            <h6 class="card-title mt-3" style=" color: rgb(11, 34, 57);">{{ productData.Name }}</h6>
+            <h6 class="card-title mt-3" style=" color: rgb(255, 255, 255);">{{ productData.Name }}</h6>
             <div class="pricetag">
-                <p style="  color: rgb(11, 34, 57);">{{ productData.Price }}</p>
+                <p style="  color: rgb(255, 255, 255);">{{ productData.Price }}</p>
               </div>
           
             

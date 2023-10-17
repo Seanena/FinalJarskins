@@ -41,32 +41,33 @@
   <div class="fixcoral" style="height: 300px;"></div>
   <div class="contai2">
     <figure>
-      <a href="/market">
-         <img src="/src/assets/pic/secondary1.webp" alt="">
-      </a>
-      <a href="/market">
-        <img src="/src/assets/pic/secondary2.webp" alt="">
-      </a>
-      <a href="/market">
-        <img src="/src/assets/pic/secondary3.webp" alt="">
-      </a>
-      <a href="/market">
-        <img src="/src/assets/pic/secondary4.webp" alt="">
-      </a>
+      <RouterLink to="/market" class="tag">
+          <img src="/src/assets/pic/secondary1.webp">
+      </RouterLink> 
+      <RouterLink to="/market" class="tag">
+          <img src="/src/assets/pic/secondary2.webp">
+      </RouterLink> 
+      <RouterLink to="/market" class="tag">
+          <img src="/src/assets/pic/secondary3.webp">
+      </RouterLink> 
+      <RouterLink to="/market" class="tag">
+          <img src="/src/assets/pic/secondary4.webp">
+      </RouterLink> 
     </figure>
     <figure>
-      <a href="/market">
-        <img src="/src/assets/pic/secondary5.webp" alt="">
-      </a>
-      <a href="/market">
-        <img src="/src/assets/pic/secondary6.webp" alt="">
-      </a>
-      <a href="/market">
-        <img src="/src/assets/pic/chicken.webp" alt="">
-      </a>
-      <a href="/market">
-        <img src="/src/assets/pic/card.webp" alt="">
-      </a>
+      <RouterLink to="/market" class="tag">
+          <img src="/src/assets/pic/secondary5.webp">
+      </RouterLink> 
+      <RouterLink to="/market" class="tag">
+          <img src="/src/assets/pic/secondary6.webp">
+      </RouterLink> 
+      <RouterLink to="/market" class="tag">
+          <img src="/src/assets/pic/chicken.webp">
+      </RouterLink> 
+      <RouterLink to="/market" class="tag">
+          <img src="/src/assets/pic/card.webp">
+      </RouterLink> 
+
     </figure>
   </div>
 
